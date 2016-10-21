@@ -1,2 +1,2 @@
 # rank_tweet
-Rank tweets based on number of retweeters at various levels of hierarchy of a user
+Rank tweets on the basis of the number of retweeters at various levels of hierarchy of the user.
