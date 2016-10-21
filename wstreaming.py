@@ -66,7 +66,7 @@ class listener(StreamListener):
 				self.num_tweets += 1
 				
 
-				with open("new_database.csv","a") as file1:
+				with open("database.csv","a") as file1:
 					file1_writer = csv.writer(file1)
 					file1_writer.writerow								([original_tweet_id,original_tweet_text,original_user_id,original_user_screen_name,original_user_followers,retweeter_id,retweeter_screenname,retweeter_followers])
 				file1.close()
