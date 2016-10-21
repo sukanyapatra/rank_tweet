@@ -16,7 +16,7 @@ auth.set_access_token(atoken, asecret)
 api = tweepy.API(auth)
 
 try:
-    file1 = open('90000_no_null.csv','r')
+    file1 = open('database.csv','r')
     dict1 = {}  #stores retweeters; key is original user id
     dict2 = {}  #stores other info such as tweet id,text,username and userflrs; key is original user id
     dict3 = {}  #stores retweeter username and retweeter followers; key is the RETWEETER ID
