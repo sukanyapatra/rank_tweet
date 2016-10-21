@@ -4,7 +4,7 @@ import csv
 
 authenticate("localhost:7474",username,password)	
 graph = Graph(authenticate)
-file1 = open('database_neo4j_FINAL2.csv','r')
+file1 = open('database.csv','r')
 reader = csv.reader(file1)
 data = list(reader) #stores the entire database as a 2D array
 i = 1
